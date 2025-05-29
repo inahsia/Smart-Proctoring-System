@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+   
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <title>Online Exam Proctor</title>
+  </head>
+  <style>
+    /* General Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  color: #333;
+  background-color: #fff;
+}
+
+main {
+  overflow-x: hidden;
+}
+
+/* Navigation Bar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.P-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #193964;
+}
+
+.right-links a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.right-links a:hover {
+  color: #ffde59;
+}
+
+/* Quote Section */
+#section-citação {
+  height: 300px;
+  background: linear-gradient(#193964,#2d2e5a), url('https://via.placeholder.com/1200x400?text=Exam+Proctor') center/cover no-repeat;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.quote {
+  font-size: 1.8rem;
+  font-style: italic;
+  margin-bottom: 10px;
+}
+
+.author {
+  font-size: 1rem;
+  opacity: 0.8;
+}
+
+/* Section Headers */
+.section-header,
+#section-header-prof {
+  font-size: 2rem;
+  color:#193964;
+  text-align: center;
+  margin: 50px 0 30px;
+}
+
+/* Rules (Diferenciais) Container */
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto 50px;
+  padding: 0 20px;
+}
+
+.container2 .box1,
+.container2 .box2,
+.container2 .box3,
+.container2 .box4,
+.container2 .box5,
+.container2 .box6 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.container2 div:hover {
+  transform: translateY(-5px);
+}
+
+/* Image Styling */
+.img-box1,
+.img-box2,
+.img-box3,
+.img-box4,
+.img-box5,
+.img-box6 {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Environment Section */
+#section-prof {
+  background-color: #f9f9f9;
+  padding: 50px 20px;
+}
+
+.container3 {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.title2 {
+  color:#193964;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.container3 ul {
+  list-style-type: disc;
+  padding-left: 30px;
+  font-size: 1rem;
+  line-height: 1.8;
+}
+
+/* Footer (optional) */
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: white;
+  text-align: center;
+}
+.section-button{
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+
+}
+.next {
+  background-color:#193964;
+  color: white;
+}
+.nextButton a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 30px;
+  font-size: 20px;
+  margin-bottom: 10%;
+}
+
+.nextButton a:hover {
+  background-color:#ffde59;
+  color: black;
+}
+
+/* Responsive Tuning */
+@media (max-width: 600px) {
+  .quote {
+    font-size: 1.4rem;
+  }
+
+  .section-header,
+  #section-header-prof {
+    font-size: 1.5rem;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .right-links {
+    margin-top: 10px;
+  }
+
+  .right-links a {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+
+}
+ </style>
+
+
+
+
+  <body>
+    <main>
+      <!-- Navigation Bar -->
+      <nav>
+        <div class="left-links">
+          <p class="P-title">The Online Exam Proctor</p>
+        </div>
+        <div class="right-links">
+          <a class="links" href="#section-diferenciais">Rules</a>
+          <a class="links" href="#section-header-prof">Requirements</a>
+        </div>
+      </nav>
+
+      <!-- Quote Section -->
+      <section id="section-citação">
+        <div class="container1">
+          <p class="quote">“As students take the test, System monitors their camera, mic and the screen they are looking at.”</p>
+          <p class="author">– Online Exam Proctor System –</p>
+        </div>
+      </section>
+
+      <!-- Rules Section -->
+      <section id="section-diferenciais">
+        <h2 class="section-header">Rules & Regulations</h2>
+        <div class="container2">
+          <div class="box1">
+            <img class="img-box1" src="{{ url_for('static', filename='img/101391-online-test_zu1cw4.gif') }}" alt="Monitoring">
+            <p>Monitors your camera and microphone during the exam. Grant permissions when prompted.</p>
+          </div>
+
+          <div class="box2">
+            <img class="img-box2" src="{{ url_for('static', filename='img/Not-detect-face.png') }}" alt="Face Not Detected">
+            <p>If the camera doesn't detect your face, it will be considered a violation.</p>
+          </div>
+
+          <div class="box3">
+            <img class="img-box3" src="{{ url_for('static', filename='img/Detect-face.png') }}" alt="Face Detected">
+            <p>Ensure the camera can focus on your face at all times during the exam.</p>
+          </div>
+
+          <div class="box4">
+            <img class="img-box4" src="{{ url_for('static', filename='img/Take-photo.png') }}" alt="Photo Capture">
+            <p>Once your face is detected, the system will take a reference photo.</p>
+          </div>
+
+          <div class="box5">
+            <img class="img-box5" src="{{ url_for('static', filename='img/Detect-two-persons.png') }}" alt="Two Persons Detected">
+            <p>Only you should be visible. Make sure the background is clean and no one else is present.</p>
+          </div>
+
+          <div class="box6">
+            <img class="img-box6" src="{{ url_for('static', filename='img/Talking.png') }}" alt="Talking Detected">
+            <p>Exam must be taken in silence. Detected noise will be recorded as a violation.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Environment Setup Section -->
+      <h2 id="section-header-prof" class="section-header">How to Setup Your Environment</h2>
+      <section id="section-prof">
+        <div class="container3">
+          <ul>
+            <li>Sit at a clean desk or table.</li>
+            <li>Remain in the same room throughout the exam.</li>
+            <li>Maintain a quiet environment—no music or talking.</li>
+            <li>No one else should enter the room.</li>
+            <li>Keep your desk clear of any prohibited items (books, notes, phones, etc.).</li>
+          </ul>
+        </div>
+      </section>
+    </section>
+
+    <section class="section-button">
+      <div class="nextButton">
+      <a href="{{ url_for('faceInput') }}" class="next" >Next &raquo;</a>
+    </div>
+    </section>
+      <!-- Footer -->
+      <footer>
+        <div class="container8">
+          <p>© 2025 The Online Exam Proctor System</p>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>

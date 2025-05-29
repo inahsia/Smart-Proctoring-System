@@ -1,0 +1,53 @@
+2025-04-24 00:32:06,765 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 00:32:06,766 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 00:32:06,769 - INFO -  * Restarting with stat
+2025-04-24 00:32:13,923 - WARNING -  * Debugger is active!
+2025-04-24 00:32:13,923 - INFO -  * Debugger PIN: 304-022-720
+2025-04-24 00:32:45,304 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 00:32:45,310 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 00:32:45,317 - INFO -  * Restarting with stat
+2025-04-24 00:32:52,387 - WARNING -  * Debugger is active!
+2025-04-24 00:32:52,389 - INFO -  * Debugger PIN: 304-022-720
+2025-04-24 00:35:14,249 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 00:35:14,249 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 00:35:14,253 - INFO -  * Restarting with stat
+2025-04-24 00:35:22,178 - WARNING -  * Debugger is active!
+2025-04-24 00:35:22,192 - INFO -  * Debugger PIN: 304-022-720
+2025-04-24 00:36:59,223 - INFO -  * Detected change in 'C:\\Users\\singh\\OneDrive\\Desktop\\anti cheating proctoring system\\app.py', reloading
+2025-04-24 00:37:00,098 - INFO -  * Restarting with stat
+2025-04-24 00:37:20,938 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 00:37:20,938 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 00:37:20,939 - INFO -  * Restarting with stat
+2025-04-24 00:37:27,608 - WARNING -  * Debugger is active!
+2025-04-24 00:37:27,621 - INFO -  * Debugger PIN: 304-022-720
+2025-04-24 00:38:32,484 - INFO -  * Detected change in 'C:\\Users\\singh\\OneDrive\\Desktop\\anti cheating proctoring system\\app.py', reloading
+2025-04-24 00:38:33,133 - INFO -  * Restarting with stat
+2025-04-24 00:39:06,901 - INFO -  * Restarting with stat
+2025-04-24 00:39:40,099 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 00:39:40,099 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 00:39:40,103 - INFO -  * Restarting with stat
+2025-04-24 00:39:47,545 - WARNING -  * Debugger is active!
+2025-04-24 00:39:47,545 - INFO -  * Debugger PIN: 304-022-720
+2025-04-24 00:40:57,148 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-04-24 00:40:57,148 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 00:40:57,152 - INFO -  * Restarting with stat
+2025-04-24 00:41:05,444 - WARNING -  * Debugger is active!
+2025-04-24 00:41:05,454 - INFO -  * Debugger PIN: 304-022-720
+2025-04-24 00:43:03,098 - INFO -  * Detected change in 'C:\\Users\\singh\\OneDrive\\Desktop\\anti cheating proctoring system\\run.py', reloading
+2025-04-24 00:43:03,816 - INFO -  * Restarting with stat
+2025-04-24 00:43:17,008 - INFO - Starting Flask app on port 5000
+2025-04-24 00:43:17,045 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.100.100:5000
+2025-04-24 00:43:17,045 - INFO - [33mPress CTRL+C to quit[0m
+2025-04-24 00:43:17,045 - INFO -  * Restarting with stat
+2025-04-24 00:43:24,081 - INFO - Starting Flask app on port 5001
+2025-04-24 00:43:24,117 - WARNING -  * Debugger is active!
+2025-04-24 00:43:24,127 - INFO -  * Debugger PIN: 304-022-720
